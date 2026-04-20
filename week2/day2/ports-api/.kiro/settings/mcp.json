@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ports-api": {
+      "command": "node",
+      "args": ["mcp-server/index.js"],
+      "disabled": false,
+      "autoApprove": ["search_ports", "get_port_by_code", "get_statistics", "list_countries", "create_port", "update_port", "delete_port"]
+    }
+  }
+}

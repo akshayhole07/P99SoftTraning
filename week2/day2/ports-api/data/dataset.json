@@ -1,0 +1,2018 @@
+[
+  {
+    "unlocode": "IRBND",
+    "country": "IRAN",
+    "name": "BANDAR ABBAS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AEJEA",
+    "country": "UNITED ARAB EMIRATES",
+    "name": "JEBEL ALI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AEKLF",
+    "country": "UNITED ARAB EMIRATES",
+    "name": "KHOR AL FAKKAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AEAUH",
+    "country": "UNITED ARAB EMIRATES",
+    "name": "ABU DHABI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "QAHMD",
+    "country": "QATAR",
+    "name": "PORT OF HAMAD",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "SGSIN",
+    "country": "SINGAPORE",
+    "name": "SINGAPORE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSHA",
+    "country": "CHINA",
+    "name": "SHANGHAI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSHK",
+    "country": "CHINA",
+    "name": "SHEKOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNYTN",
+    "country": "CHINA",
+    "name": "YANTIAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNTSN",
+    "country": "CHINA",
+    "name": "TIANJIN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNNGB",
+    "country": "CHINA",
+    "name": "NINGBO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNTAO",
+    "country": "CHINA",
+    "name": "QINGDAO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "HKHKG",
+    "country": "HONG KONG",
+    "name": "HONG KONG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USNYC",
+    "country": "UNITED STATES",
+    "name": "NEW YORK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USLAX",
+    "country": "UNITED STATES",
+    "name": "LOS ANGELES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USSEA",
+    "country": "UNITED STATES",
+    "name": "SEATTLE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLRTM",
+    "country": "NETHERLANDS",
+    "name": "ROTTERDAM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEHAM",
+    "country": "GERMANY",
+    "name": "HAMBURG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BEANR",
+    "country": "BELGIUM",
+    "name": "ANTWERP",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "INNSA",
+    "country": "INDIA",
+    "name": "NHAVA SHEVA",
+    "port_role": "ORIGIN",
+    "status": "active"
+  },
+  {
+    "unlocode": "INCCU",
+    "country": "INDIA",
+    "name": "KOLKATA",
+    "port_role": "ORIGIN",
+    "status": "active"
+  },
+  {
+    "unlocode": "LKCMB",
+    "country": "SRI LANKA",
+    "name": "COLOMBO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "THBKK",
+    "country": "THAILAND",
+    "name": "BANGKOK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "VNSGN",
+    "country": "VIETNAM",
+    "name": "HO CHI MINH CITY",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRPUS",
+    "country": "KOREA, REPUBLIC OF",
+    "name": "BUSAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNBHY",
+    "country": "CHINA",
+    "name": "BEIHAI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNRZH",
+    "country": "CHINA",
+    "name": "RIZHAO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USMSY",
+    "country": "UNITED STATES",
+    "name": "NEW ORLEANS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNTOL",
+    "country": "CHINA",
+    "name": "TONGLING",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USSAN",
+    "country": "UNITED STATES",
+    "name": "SAN DIEGO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSHD",
+    "country": "CHINA",
+    "name": "SHIDAO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TWKHH",
+    "country": "TAIWAN",
+    "name": "KAOHSIUNG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNTAC",
+    "country": "CHINA",
+    "name": "TAICANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNFAN",
+    "country": "CHINA",
+    "name": "FANGCHENG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "VNHPH",
+    "country": "VIETNAM",
+    "name": "HAI PHONG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSDG",
+    "country": "CHINA",
+    "name": "SHUIDONG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRINC",
+    "country": "KOREA, REPUBLIC OF",
+    "name": "INCHEON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNWHI",
+    "country": "CHINA",
+    "name": "WUHU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNXIN",
+    "country": "CHINA",
+    "name": "XINHUI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESPMI",
+    "country": "SPAIN",
+    "name": "PALMA DE MALLORCA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNNSA",
+    "country": "CHINA",
+    "name": "NANSHA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNWEI",
+    "country": "CHINA",
+    "name": "WEIHAI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNCIG",
+    "country": "CHINA",
+    "name": "CHENJIAGANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRYOS",
+    "country": "KOREA, REPUBLIC OF",
+    "name": "YEOSU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLWAL",
+    "country": "NETHERLANDS",
+    "name": "ROTTERDAM WAALHAVEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNNJG",
+    "country": "CHINA",
+    "name": "NANJING",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNGAO",
+    "country": "CHINA",
+    "name": "GAOGANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNZSN",
+    "country": "CHINA",
+    "name": "ZHONGSHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNZHE",
+    "country": "CHINA",
+    "name": "ZHENJIANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNMJS",
+    "country": "CHINA",
+    "name": "MAJISHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNZUH",
+    "country": "CHINA",
+    "name": "ZHUHAI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSHP",
+    "country": "CHINA",
+    "name": "QINHUANGDAO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNLKU",
+    "country": "CHINA",
+    "name": "LONGKOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNFZG",
+    "country": "CHINA",
+    "name": "FUZHOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDSRI",
+    "country": "INDONESIA",
+    "name": "SAMARINDA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRUSN",
+    "country": "KOREA, REPUBLIC OF",
+    "name": "ULSAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNYPG",
+    "country": "CHINA",
+    "name": "YANGPU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNZZU",
+    "country": "CHINA",
+    "name": "ZHANGZHOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNQZJ",
+    "country": "CHINA",
+    "name": "QUANZHOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDBUR",
+    "country": "INDONESIA",
+    "name": "BATU AMPAR",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNHMN",
+    "country": "CHINA",
+    "name": "HUMEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNZAP",
+    "country": "CHINA",
+    "name": "ZHAPU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUSYD",
+    "country": "AUSTRALIA",
+    "name": "SYDNEY",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNGSH",
+    "country": "CHINA",
+    "name": "GUISHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNYIZ",
+    "country": "CHINA",
+    "name": "YIZHENG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNYJI",
+    "country": "CHINA",
+    "name": "YANGJIANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNBAY",
+    "country": "CHINA",
+    "name": "BAYUQUAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BRSSZ",
+    "country": "BRAZIL",
+    "name": "SANTOS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPYOK",
+    "country": "JAPAN",
+    "name": "YOKOHAMA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRBXN",
+    "country": "TURKEY",
+    "name": "BODRUM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "SAJUB",
+    "country": "SAUDI ARABIA",
+    "name": "AL JUBAIL",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNBIN",
+    "country": "CHINA",
+    "name": "BINZHOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "PAPCN",
+    "country": "PANAMA",
+    "name": "PANAMA CANAL",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DERSK",
+    "country": "GERMANY",
+    "name": "ROSTOCK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USBLI",
+    "country": "UNITED STATES",
+    "name": "BELLINGHAM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRYAL",
+    "country": "TURKEY",
+    "name": "YALOVA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DKCPH",
+    "country": "DENMARK",
+    "name": "COPENHAGEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRMOK",
+    "country": "KOREA, REPUBLIC OF",
+    "name": "MOKPO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GRAIO",
+    "country": "GREECE",
+    "name": "ALIMOS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "QADOH",
+    "country": "QATAR",
+    "name": "DOHA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRPAR",
+    "country": "FRANCE",
+    "name": "PARIS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ZACPT",
+    "country": "SOUTH AFRICA",
+    "name": "CAPE TOWN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPNGO",
+    "country": "JAPAN",
+    "name": "NAGOYA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRFET",
+    "country": "TURKEY",
+    "name": "FETHIYE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUFRE",
+    "country": "AUSTRALIA",
+    "name": "FREMANTLE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDMUB",
+    "country": "INDONESIA",
+    "name": "MUARA BERAU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USPAE",
+    "country": "UNITED STATES",
+    "name": "EVERETT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDSUB",
+    "country": "INDONESIA",
+    "name": "SURABAYA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "HUBUD",
+    "country": "HUNGARY",
+    "name": "BUDAPEST",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEBER",
+    "country": "GERMANY",
+    "name": "BERLIN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUHPL",
+    "country": "AUSTRALIA",
+    "name": "HOPE ISLAND",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEBRV",
+    "country": "GERMANY",
+    "name": "BREMERHAVEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "RULED",
+    "country": "RUSSIA",
+    "name": "ST PETERSBURG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEDUI",
+    "country": "GERMANY",
+    "name": "DUISBURG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUBNE",
+    "country": "AUSTRALIA",
+    "name": "BRISBANE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NGLOS",
+    "country": "NIGERIA",
+    "name": "LAGOS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "SXSXM",
+    "country": "SINT MAARTEN",
+    "name": "ST MAARTEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLDHR",
+    "country": "NETHERLANDS",
+    "name": "DEN HELDER",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GIGIB",
+    "country": "GIBRALTAR",
+    "name": "GIBRALTAR",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESVGO",
+    "country": "SPAIN",
+    "name": "VIGO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLIJM",
+    "country": "NETHERLANDS",
+    "name": "IJMUIDEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "RUVVO",
+    "country": "RUSSIA",
+    "name": "VLADIVOSTOK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "PLSZZ",
+    "country": "POLAND",
+    "name": "SZCZECIN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESDNA",
+    "country": "SPAIN",
+    "name": "DENIA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUSHQ",
+    "country": "AUSTRALIA",
+    "name": "SOUTHPORT QLD",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOTOS",
+    "country": "NORWAY",
+    "name": "TROMSO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNDJK",
+    "country": "CHINA",
+    "name": "DONGJIAKOU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNYUH",
+    "country": "CHINA",
+    "name": "YUHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBGOS",
+    "country": "UNITED KINGDOM",
+    "name": "GOSPORT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GRPIR",
+    "country": "GREECE",
+    "name": "PIRAEUS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "MOMFM",
+    "country": "MACAU",
+    "name": "MACAU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AEFJR",
+    "country": "UAE",
+    "name": "FUJAIRAH",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "MMRGN",
+    "country": "MYANMAR",
+    "name": "YANGON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ARBUE",
+    "country": "ARGENTINA",
+    "name": "BUENOS AIRES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNHSI",
+    "country": "CHINA",
+    "name": "HUANGSHI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USEYW",
+    "country": "USA",
+    "name": "KEY WEST",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "MXLAP",
+    "country": "MEXICO",
+    "name": "LA PAZ",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USGLS",
+    "country": "USA",
+    "name": "GALVESTON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USLCH",
+    "country": "USA",
+    "name": "LAKE CHARLES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USTPA",
+    "country": "USA",
+    "name": "TAMPA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBLON",
+    "country": "UK",
+    "name": "LONDON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "PTLIS",
+    "country": "PORTUGAL",
+    "name": "LISBON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRBES",
+    "country": "FRANCE",
+    "name": "BREST",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NGPHC",
+    "country": "NIGERIA",
+    "name": "PORT HARCOURT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AEHZP",
+    "country": "UAE",
+    "name": "HAMRIYA FREE ZONE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPTYO",
+    "country": "JAPAN",
+    "name": "TOKYO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BGVAR",
+    "country": "BULGARIA",
+    "name": "VARNA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOOSL",
+    "country": "NORWAY",
+    "name": "OSLO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLLMR",
+    "country": "NETHERLANDS",
+    "name": "LEMMER",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "INBOM",
+    "country": "INDIA",
+    "name": "MUMBAI",
+    "port_role": "ORIGIN",
+    "status": "active"
+  },
+  {
+    "unlocode": "SEGOT",
+    "country": "SWEDEN",
+    "name": "GOTEBORG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "RUMMK",
+    "country": "RUSSIA",
+    "name": "MURMANSK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUDRW",
+    "country": "AUSTRALIA",
+    "name": "DARWIN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USPDX",
+    "country": "USA",
+    "name": "PORTLAND",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUGLT",
+    "country": "AUSTRALIA",
+    "name": "GLADSTONE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRFOS",
+    "country": "FRANCE",
+    "name": "FOS SUR MER",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BSMHH",
+    "country": "BAHAMAS",
+    "name": "MARSH HARBOUR",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USLGB",
+    "country": "USA",
+    "name": "LONG BEACH",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDPLM",
+    "country": "INDONESIA",
+    "name": "PALEMBANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNYNG",
+    "country": "CHINA",
+    "name": "YANGZHONG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "VISTT",
+    "country": "US VIRGIN ISLANDS",
+    "name": "ST THOMAS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBFAL",
+    "country": "UK",
+    "name": "FALMOUTH",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "HRTRO",
+    "country": "CROATIA",
+    "name": "TROGIR",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USTIW",
+    "country": "USA",
+    "name": "TACOMA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DECUX",
+    "country": "GERMANY",
+    "name": "CUXHAVEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BEOST",
+    "country": "BELGIUM",
+    "name": "OOSTENDE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USAVU",
+    "country": "USA",
+    "name": "AVENTURA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRKAN",
+    "country": "KOREA",
+    "name": "GWANGYANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPUKB",
+    "country": "JAPAN",
+    "name": "KOBE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBSOU",
+    "country": "UK",
+    "name": "SOUTHAMPTON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USPEF",
+    "country": "USA",
+    "name": "PORT EVERGLADES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USHNL",
+    "country": "USA",
+    "name": "HONOLULU",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CLPMC",
+    "country": "CHILE",
+    "name": "PUERTO MONTT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEKEL",
+    "country": "GERMANY",
+    "name": "KIEL",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "UYMVD",
+    "country": "URUGUAY",
+    "name": "MONTEVIDEO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLLEY",
+    "country": "NETHERLANDS",
+    "name": "LELYSTAD",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRLEH",
+    "country": "FRANCE",
+    "name": "LE HAVRE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESCAR",
+    "country": "SPAIN",
+    "name": "CARTAGENA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GPPTP",
+    "country": "FRANCE",
+    "name": "POINTE A PITRE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOBJF",
+    "country": "NORWAY",
+    "name": "BATSFJORD",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUALP",
+    "country": "AUSTRALIA",
+    "name": "CORAL SEA MARINA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESTAR",
+    "country": "SPAIN",
+    "name": "TARRAGONA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ARMDQ",
+    "country": "ARGENTINA",
+    "name": "MAR DEL PLATA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GRPER",
+    "country": "GREECE",
+    "name": "PERAMA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSMN",
+    "country": "CHINA",
+    "name": "SONGMEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "VNNGH",
+    "country": "VIETNAM",
+    "name": "NGHI SON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPKOJ",
+    "country": "JAPAN",
+    "name": "KAGOSHIMA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "PLGDY",
+    "country": "POLAND",
+    "name": "GDYNIA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "VNCUA",
+    "country": "VIETNAM",
+    "name": "NGHE AN CUA LO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDCGN",
+    "country": "INDONESIA",
+    "name": "CILEGON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GGGCI",
+    "country": "GUERNSEY",
+    "name": "GUERNSEY",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "METIV",
+    "country": "MONTENEGRO",
+    "name": "TIVAT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNLGI",
+    "country": "CHINA",
+    "name": "LONGHAI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USBAL",
+    "country": "UNITED STATES",
+    "name": "BALTIMORE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOBGO",
+    "country": "NORWAY",
+    "name": "BERGEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBCOW",
+    "country": "UNITED KINGDOM",
+    "name": "COWES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRISK",
+    "country": "TURKEY",
+    "name": "ISKENDERUN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BEZEE",
+    "country": "BELGIUM",
+    "name": "ZEEBRUGGE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLTNZ",
+    "country": "NETHERLANDS",
+    "name": "TERNEUZEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "PRSJU",
+    "country": "PUERTO RICO",
+    "name": "SAN JUAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNCXD",
+    "country": "CHINA",
+    "name": "CHANGXINDAO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRLRT",
+    "country": "FRANCE",
+    "name": "LORIENT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "EGALY",
+    "country": "EGYPT",
+    "name": "ALEXANDRIA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CAHAL",
+    "country": "CANADA",
+    "name": "HALIFAX",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BENIE",
+    "country": "BELGIUM",
+    "name": "NIEUWPOORT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESSCR",
+    "country": "SPAIN",
+    "name": "SAN CARLOS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CIABJ",
+    "country": "IVORY COAST",
+    "name": "ABIDJAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "SNDKR",
+    "country": "SENEGAL",
+    "name": "DAKAR",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBLYM",
+    "country": "UNITED KINGDOM",
+    "name": "LYMINGTON",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNXNA",
+    "country": "CHINA",
+    "name": "XINSHA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRDDM",
+    "country": "TURKEY",
+    "name": "DIDIM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GRMAZ",
+    "country": "GREECE",
+    "name": "ZEA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USCRP",
+    "country": "UNITED STATES",
+    "name": "CORPUS CHRISTI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ARSLO",
+    "country": "ARGENTINA",
+    "name": "SAN LORENZO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEBRE",
+    "country": "GERMANY",
+    "name": "BREMEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "SARTA",
+    "country": "SAUDI ARABIA",
+    "name": "RAS TANURA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "RUARH",
+    "country": "RUSSIA",
+    "name": "ARKHANGELSK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNJSN",
+    "country": "CHINA",
+    "name": "JINSHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DEHHF",
+    "country": "GERMANY",
+    "name": "HEILIGENHAFEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNSZP",
+    "country": "CHINA",
+    "name": "SHENZHEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "THLCH",
+    "country": "THAILAND",
+    "name": "LAEM CHABANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NAWVB",
+    "country": "NAMIBIA",
+    "name": "WALVIS BAY",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DKSKA",
+    "country": "DENMARK",
+    "name": "SKAGEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITVIA",
+    "country": "ITALY",
+    "name": "VIAREGGIO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUMLL",
+    "country": "AUSTRALIA",
+    "name": "MOOLOOLABA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPMIZ",
+    "country": "JAPAN",
+    "name": "MIZUSHIMA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "INIXY",
+    "country": "INDIA",
+    "name": "KANDLA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "JPOSA",
+    "country": "JAPAN",
+    "name": "OSAKA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITLIV",
+    "country": "ITALY",
+    "name": "LIVORNO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "INSIK",
+    "country": "INDIA",
+    "name": "SIKKA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NZAKL",
+    "country": "NEW ZEALAND",
+    "name": "AUCKLAND",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ZADUR",
+    "country": "SOUTH AFRICA",
+    "name": "DURBAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITNAP",
+    "country": "ITALY",
+    "name": "NAPOLI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNBHT",
+    "country": "CHINA",
+    "name": "TIESHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNXSN",
+    "country": "CHINA",
+    "name": "XIANGSHAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ISREY",
+    "country": "ICELAND",
+    "name": "REYKJAVIK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOMYR",
+    "country": "NORWAY",
+    "name": "MYRE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "HRSIB",
+    "country": "CROATIA",
+    "name": "SIBENIK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITSRE",
+    "country": "ITALY",
+    "name": "SANREMO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESTOR",
+    "country": "SPAIN",
+    "name": "TORREVIEJA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITFCO",
+    "country": "ITALY",
+    "name": "FIUMICINO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "UYPDP",
+    "country": "URUGUAY",
+    "name": "PUNTA DEL ESTE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "QARLF",
+    "country": "QATAR",
+    "name": "RAS LAFFAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USSAV",
+    "country": "UNITED STATES",
+    "name": "SAVANNAH",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRMRS",
+    "country": "FRANCE",
+    "name": "MARSEILLE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BGRDU",
+    "country": "BULGARIA",
+    "name": "RUSE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOSVG",
+    "country": "NORWAY",
+    "name": "STAVANGER",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BRBEL",
+    "country": "BRAZIL",
+    "name": "BELEM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUMEL",
+    "country": "AUSTRALIA",
+    "name": "MELBOURNE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESHUV",
+    "country": "SPAIN",
+    "name": "HUELVA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "LTKLJ",
+    "country": "LITHUANIA",
+    "name": "KLAIPEDA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDGRE",
+    "country": "INDONESIA",
+    "name": "GRESIK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRTYG",
+    "country": "SOUTH KOREA",
+    "name": "TONGYEONG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "KRKPO",
+    "country": "SOUTH KOREA",
+    "name": "POHANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "DKEBJ",
+    "country": "DENMARK",
+    "name": "ESBJERG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDPNK",
+    "country": "INDONESIA",
+    "name": "PONTIANAK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBLOW",
+    "country": "UNITED KINGDOM",
+    "name": "LOWESTOFT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLHSL",
+    "country": "NETHERLANDS",
+    "name": "HELLEVOETSLUIS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USPIE",
+    "country": "UNITED STATES",
+    "name": "ST PETERSBURG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRGJU",
+    "country": "FRANCE",
+    "name": "GOLFE JUAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNWEF",
+    "country": "CHINA",
+    "name": "WEIFANG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "PTLEI",
+    "country": "PORTUGAL",
+    "name": "LEIXOES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AEDXB",
+    "country": "UNITED ARAB EMIRATES",
+    "name": "PORT RASHID",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUCNS",
+    "country": "AUSTRALIA",
+    "name": "CAIRNS",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESALC",
+    "country": "SPAIN",
+    "name": "ALICANTE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRHAY",
+    "country": "TURKEY",
+    "name": "HAYDARPASA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLSTA",
+    "country": "NETHERLANDS",
+    "name": "STAVOREN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITIMP",
+    "country": "ITALY",
+    "name": "IMPERIA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "CNCQD",
+    "country": "CHINA",
+    "name": "CHANGDAO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USPQM",
+    "country": "UNITED STATES",
+    "name": "WEST PALM BEACH",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AGANU",
+    "country": "ANTIGUA AND BARBUDA",
+    "name": "ANTIGUA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "VGRAD",
+    "country": "BRITISH VIRGIN ISLANDS",
+    "name": "ROAD TOWN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOVDS",
+    "country": "NORWAY",
+    "name": "VADSO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBPOO",
+    "country": "UNITED KINGDOM",
+    "name": "POOLE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ECAYO",
+    "country": "ECUADOR",
+    "name": "PUERTO AYORA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOVAO",
+    "country": "NORWAY",
+    "name": "VARDO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TWKEL",
+    "country": "TAIWAN",
+    "name": "KEELUNG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRCER",
+    "country": "FRANCE",
+    "name": "CHERBOURG",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLDZL",
+    "country": "NETHERLANDS",
+    "name": "DELZIJL",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GBPTL",
+    "country": "UNITED KINGDOM",
+    "name": "PORTLAND",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GHTEM",
+    "country": "GHANA",
+    "name": "TEMA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRMER",
+    "country": "TURKEY",
+    "name": "MERSIN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUADL",
+    "country": "AUSTRALIA",
+    "name": "ADELAIDE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USPCV",
+    "country": "UNITED STATES",
+    "name": "CAPE CANAVERAL",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLURK",
+    "country": "NETHERLANDS",
+    "name": "URK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRLU2",
+    "country": "FRANCE",
+    "name": "SAINT MANDRIER",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOTRD",
+    "country": "NORWAY",
+    "name": "TRONDHEIM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ECGYE",
+    "country": "ECUADOR",
+    "name": "GUAYAQUIL",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "SAGIZ",
+    "country": "SAUDI ARABIA",
+    "name": "JIZAN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USADQ",
+    "country": "UNITED STATES",
+    "name": "KODIAK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITLIC",
+    "country": "ITALY",
+    "name": "LICATA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLMAK",
+    "country": "NETHERLANDS",
+    "name": "MAKKUM",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BRNTR",
+    "country": "BRAZIL",
+    "name": "NITEROI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "AUSCB",
+    "country": "AUSTRALIA",
+    "name": "SCARBOROUGH",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ITM2R",
+    "country": "ITALY",
+    "name": "MARINA DI RAGUSA",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USMOB",
+    "country": "UNITED STATES",
+    "name": "MOBILE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "BRRIG",
+    "country": "BRAZIL",
+    "name": "RIO GRANDE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "ESSCT",
+    "country": "SPAIN",
+    "name": "TENERIFE",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLMOE",
+    "country": "NETHERLANDS",
+    "name": "MOERDIJK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRURO",
+    "country": "FRANCE",
+    "name": "ROUEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USSSI",
+    "country": "UNITED STATES",
+    "name": "BRUNSWICK",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "TRNEM",
+    "country": "TURKEY",
+    "name": "NEMRUT",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "IDKDI",
+    "country": "INDONESIA",
+    "name": "KENDARI",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "USOAK",
+    "country": "UNITED STATES",
+    "name": "OAKLAND",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NOKSU",
+    "country": "NORWAY",
+    "name": "KRISTIANSUND",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "GRRHO",
+    "country": "GREECE",
+    "name": "RHODES",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "FRSML",
+    "country": "FRANCE",
+    "name": "SAINT MALO",
+    "port_role": "DESTINATION",
+    "status": "active"
+  },
+  {
+    "unlocode": "NLLWR",
+    "country": "NETHERLANDS",
+    "name": "LEEUWARDEN",
+    "port_role": "DESTINATION",
+    "status": "active"
+  }
+]

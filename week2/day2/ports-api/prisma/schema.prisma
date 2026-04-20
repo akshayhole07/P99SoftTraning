@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Port {
+  id         Int        @id @default(autoincrement())
+  unlocode   String     @unique
+  country    String
+  name       String
+  port_role  PortRole
+  status     PortStatus @default(active)
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+
+  @@index([country])
+  @@index([status])
+  @@index([port_role])
+  @@map("ports")
+}
+
+enum PortRole {
+  ORIGIN
+  DESTINATION
+}
+
+enum PortStatus {
+  active
+  passive
+}

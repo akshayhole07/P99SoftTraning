@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ports-api": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Admin\\Documents\\P99SoftTraining\\week2\\day2\\ports-api\\mcp-server\\index.js"
+      ]
+    }
+  }
+}

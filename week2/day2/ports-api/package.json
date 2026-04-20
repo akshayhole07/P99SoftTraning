@@ -1,0 +1,73 @@
+{
+  
+  "name": "ports-api",
+  
+  "version": "1.0.0",
+  
+  "type": "module",
+  
+  "description": "",
+  
+  "main": "index.js",
+  
+  "scripts": {
+  
+    
+  "start": "node app.js",
+  
+    
+  "dev": "node --watch app.js",
+  
+    
+  "prisma:generate": "prisma generate",
+  
+    
+  "prisma:migrate": "prisma migrate dev",
+  
+    
+  "prisma:studio": "prisma studio",
+  
+    
+  "db:seed": "node prisma/seed.js"
+  
+  },
+  
+  "prisma": {
+  
+    
+  "seed": "node prisma/seed.js"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "dependencies": {
+  
+    
+  "@prisma/adapter-pg": "^7.7.0",
+  
+    
+  "@prisma/client": "^7.7.0",
+  
+    
+  "express": "^5.2.1",
+  
+    
+  "pg": "^8.20.0"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "dotenv": "^17.4.2",
+  
+    
+  "prisma": "^7.7.0"
+  
+  }
+}

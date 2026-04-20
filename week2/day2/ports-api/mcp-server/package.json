@@ -1,0 +1,20 @@
+{
+  "name": "ports-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Server for Ports API with full CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@prisma/client": "^7.7.0",
+    "@prisma/adapter-pg": "^7.7.0",
+    "pg": "^8.13.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "prisma": "^7.7.0"
+  }
+}
