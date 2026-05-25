@@ -1,0 +1,26 @@
+# Java
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+*.launch
+
+# Build
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db

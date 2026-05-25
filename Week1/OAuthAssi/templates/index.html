@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth & JWT Demo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { color: #333; margin-bottom: 10px; font-size: 28px; }
+        p { color: #666; margin-bottom: 30px; }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: white;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .btn-github { background: #24292e; }
+        .btn-google { background: #4285f4; }
+        .btn-test { background: #10b981; margin-top: 20px; }
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        .input-field:focus {
+            outline: none;
+            border-color: #4285f4;
+        }
+        .divider {
+            text-align: center;
+            margin: 20px 0;
+            color: #999;
+            position: relative;
+        }
+        .divider::before, .divider::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background: #ddd;
+        }
+        .divider::before { left: 0; }
+        .divider::after { right: 0; }
+        #result {
+            margin-top: 20px;
+            padding: 16px;
+            background: #f3f4f6;
+            border-radius: 8px;
+            display: none;
+            word-break: break-all;
+        }
+        #result.show { display: block; }
+        #result h3 { color: #333; margin-bottom: 10px; font-size: 16px; }
+        #result pre {
+            background: #1f2937;
+            color: #10b981;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .token-display {
+            background: #fef3c7;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-size: 13px;
+            color: #92400e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>OAuth & JWT Demo</h1>
+        <p>Login with Google or use your credentials</p>
+        
+        <a href="/login" class="btn btn-google">
+            <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="currentColor" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="currentColor" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                <path fill="currentColor" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+            </svg>
+            Login with Google
+        </a>
+
+        <div class="divider">OR</div>
+
+        <div id="authForms">
+            <div id="loginForm">
+                <input type="email" id="loginEmail" placeholder="Email" class="input-field">
+                <input type="password" id="loginPassword" placeholder="Password" class="input-field">
+                <button class="btn btn-primary" onclick="loginWithCredentials()">Login</button>
+                <p style="margin-top: 10px; color: #666; font-size: 14px;">
+                    Don't have an account? <a href="#" onclick="showSignup(); return false;" style="color: #4285f4;">Sign up</a>
+                </p>
+            </div>
+
+            <div id="signupForm" style="display: none;">
+                <input type="email" id="signupEmail" placeholder="Email" class="input-field">
+                <input type="password" id="signupPassword" placeholder="Password" class="input-field">
+                <button class="btn btn-success" onclick="signup()">Sign Up</button>
+                <p style="margin-top: 10px; color: #666; font-size: 14px;">
+                    Already have an account? <a href="#" onclick="showLogin(); return false;" style="color: #4285f4;">Login</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="divider">OR</div>
+
+        <button class="btn btn-test" onclick="testProtectedRoute()">Test Protected Route</button>
+
+        <div id="result">
+            <h3>Response:</h3>
+            <pre id="response"></pre>
+            <div class="token-display" id="tokenDisplay" style="display:none;">
+                <strong>JWT Token saved!</strong> You can now test the protected route.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let jwtToken = localStorage.getItem('jwt_token');
+
+        // Check if we're on a callback with token in URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const tokenParam = urlParams.get('token');
+        if (tokenParam) {
+            jwtToken = tokenParam;
+            localStorage.setItem('jwt_token', jwtToken);
+            window.history.replaceState({}, document.title, '/');
+            document.getElementById('result').classList.add('show');
+            document.getElementById('response').textContent = JSON.stringify({message: 'Login successful!'}, null, 2);
+            document.getElementById('tokenDisplay').style.display = 'block';
+        }
+
+        function showSignup() {
+            document.getElementById('loginForm').style.display = 'none';
+            document.getElementById('signupForm').style.display = 'block';
+        }
+
+        function showLogin() {
+            document.getElementById('signupForm').style.display = 'none';
+            document.getElementById('loginForm').style.display = 'block';
+        }
+
+        async function signup() {
+            const email = document.getElementById('signupEmail').value;
+            const password = document.getElementById('signupPassword').value;
+
+            if (!email || !password) {
+                alert('Email and password are required');
+                return;
+            }
+
+            try {
+                const response = await fetch('/signup', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({email, password})
+                });
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert('Signup successful! Please login.');
+                    showLogin();
+                    document.getElementById('loginEmail').value = email;
+                } else {
+                    alert(data.error || 'Signup failed');
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        async function loginWithCredentials() {
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+
+            if (!email || !password) {
+                alert('Email and password are required');
+                return;
+            }
+
+            try {
+                const response = await fetch('/login-credentials', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({email, password})
+                });
+                const data = await response.json();
+
+                if (response.ok) {
+                    jwtToken = data.token;
+                    localStorage.setItem('jwt_token', jwtToken);
+                    window.location.href = `/success?token=${jwtToken}`;
+                } else {
+                    alert(data.error || 'Login failed');
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        async function testProtectedRoute() {
+            if (!jwtToken) {
+                alert('Please login first to get a JWT token');
+                return;
+            }
+
+            try {
+                const response = await fetch('/profile', {
+                    headers: {
+                        'Authorization': `Bearer ${jwtToken}`
+                    }
+                });
+                const data = await response.json();
+                
+                document.getElementById('result').classList.add('show');
+                document.getElementById('response').textContent = JSON.stringify(data, null, 2);
+                
+                if (response.status === 401) {
+                    localStorage.removeItem('jwt_token');
+                    jwtToken = null;
+                }
+            } catch (error) {
+                document.getElementById('result').classList.add('show');
+                document.getElementById('response').textContent = 'Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

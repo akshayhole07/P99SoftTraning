@@ -1,0 +1,20 @@
+{
+  "name": "structural-patterns-assignment",
+  "version": "1.0.0",
+  "description": "Structural Design Patterns: Adapter and Decorator implementations",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "ui": "node server.js",
+    "test": "node test.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "design-patterns",
+    "adapter",
+    "decorator",
+    "structural-patterns"
+  ],
+  "author": "P99 Soft Training",
+  "license": "MIT"
+}

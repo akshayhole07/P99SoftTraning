@@ -1,6 +1,5 @@
-# Environment variables
+# Environment variables (contains secrets)
 .env
-*/.env
 
 # Python cache
 __pycache__/
@@ -20,9 +19,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# Archives
-*.zip
-/node_modules
-
-*.pptx

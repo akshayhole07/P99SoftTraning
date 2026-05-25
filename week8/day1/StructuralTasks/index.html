@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Structural Patterns Demo - Adapter & Decorator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>🏗️ Structural Design Patterns</h1>
+      <p>Interactive Demo: Adapter & Decorator Patterns</p>
+    </header>
+
+    <main>
+      <!-- Pattern Explanation -->
+      <section class="explanation">
+        <div class="pattern-card">
+          <h2>🔌 Adapter Pattern</h2>
+          <p>Converts incompatible API format into our expected format</p>
+          <code>External API → Adapter → Clean Format</code>
+        </div>
+        <div class="pattern-card">
+          <h2>🎁 Decorator Pattern</h2>
+          <p>Adds security without changing original code</p>
+          <code>Handler → Decorator (Add Auth) → Secured Handler</code>
+        </div>
+      </section>
+
+      <!-- Adapter Demo -->
+      <section class="demo-section">
+        <h2>1. Adapter Pattern Demo</h2>
+        <p class="section-desc">The Adapter wraps the external API and converts its format</p>
+        
+        <div class="demo-controls">
+          <button class="btn btn-primary" onclick="getUser(1)">Get User 1</button>
+          <button class="btn btn-primary" onclick="getUser(2)">Get User 2</button>
+          <button class="btn btn-primary" onclick="getUser(3)">Get User 3</button>
+          <button class="btn btn-secondary" onclick="getAllUsers()">Get All Users</button>
+        </div>
+
+        <div class="response-box">
+          <h3>Response from Adapter:</h3>
+          <pre id="adapter-response">Click a button to see the response...</pre>
+        </div>
+
+        <div class="info-box">
+          <strong>✓ What's happening:</strong>
+          <ul>
+            <li>Adapter translates external API format to our format</li>
+            <li>All responses have consistent structure: {success, data, error}</li>
+            <li>Error handling is centralized in the Adapter</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Decorator Demo -->
+      <section class="demo-section">
+        <h2>2. Decorator Pattern Demo - Authentication</h2>
+        <p class="section-desc">The Decorator adds authentication before calling the handler</p>
+
+        <div class="token-section">
+          <h3>Select Token:</h3>
+          <div class="token-buttons">
+            <button class="btn btn-token" onclick="selectToken('token123')">
+              👤 User Token (token123)
+            </button>
+            <button class="btn btn-token" onclick="selectToken('admin_token')">
+              👑 Admin Token (admin_token)
+            </button>
+            <button class="btn btn-token btn-danger" onclick="selectToken('invalid_token')">
+              ✗ Invalid Token
+            </button>
+            <button class="btn btn-token btn-danger" onclick="selectToken('')">
+              ✗ No Token
+            </button>
+          </div>
+          <div class="token-display">
+            Current Token: <span id="current-token">None</span>
+          </div>
+        </div>
+
+        <div class="decorator-controls">
+          <h3>Test Operations:</h3>
+          
+          <div class="operation-group">
+            <h4>📖 Read Operations (Any Valid Token)</h4>
+            <button class="btn btn-info" onclick="callHandler('getUser', 1)">Get User 1</button>
+            <button class="btn btn-info" onclick="callHandler('getAllUsers')">Get All Users</button>
+          </div>
+
+          <div class="operation-group">
+            <h4>✏️ Write Operations (Admin Only)</h4>
+            <button class="btn btn-warning" onclick="callHandler('updateUser', 2)">Update User 2</button>
+            <button class="btn btn-warning" onclick="callHandler('deleteUser', 1)">Delete User 1</button>
+          </div>
+        </div>
+
+        <div class="response-box">
+          <h3>Decorator Response:</h3>
+          <pre id="decorator-response">Select a token and click a button...</pre>
+        </div>
+
+        <div class="info-box">
+          <strong>✓ What's happening:</strong>
+          <ul>
+            <li>Decorator checks for valid token FIRST</li>
+            <li>Invalid/missing token → 401 Unauthorized</li>
+            <li>Admin-only operations → 403 Forbidden (unless admin_token)</li>
+            <li>Valid token + allowed operation → Handler executes</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Test Matrix -->
+      <section class="demo-section">
+        <h2>3. Quick Test Matrix</h2>
+        <p class="section-desc">See which combinations work and which fail</p>
+        
+        <table class="test-matrix">
+          <thead>
+            <tr>
+              <th>Token</th>
+              <th>Get User</th>
+              <th>Get All</th>
+              <th>Update</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>token123</td>
+              <td class="success">✓ 200</td>
+              <td class="success">✓ 200</td>
+              <td class="error">✗ 403</td>
+              <td class="error">✗ 403</td>
+            </tr>
+            <tr>
+              <td>admin_token</td>
+              <td class="success">✓ 200</td>
+              <td class="success">✓ 200</td>
+              <td class="success">✓ 200</td>
+              <td class="success">✓ 200</td>
+            </tr>
+            <tr>
+              <td>invalid_token</td>
+              <td class="error">✗ 401</td>
+              <td class="error">✗ 401</td>
+              <td class="error">✗ 401</td>
+              <td class="error">✗ 401</td>
+            </tr>
+            <tr>
+              <td>No Token</td>
+              <td class="error">✗ 401</td>
+              <td class="error">✗ 401</td>
+              <td class="error">✗ 401</td>
+              <td class="error">✗ 401</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Learning Section -->
+      <section class="demo-section learning-section">
+        <h2>📚 What You're Learning</h2>
+        <div class="learning-grid">
+          <div class="learning-card">
+            <h3>Adapter</h3>
+            <p>✓ Translates incompatible interfaces</p>
+            <p>✓ Isolates code from API changes</p>
+            <p>✓ Provides consistent responses</p>
+          </div>
+          <div class="learning-card">
+            <h3>Decorator</h3>
+            <p>✓ Adds behavior without modifying original</p>
+            <p>✓ Handles cross-cutting concerns</p>
+            <p>✓ Can be stacked/composed</p>
+          </div>
+          <div class="learning-card">
+            <h3>Benefits</h3>
+            <p>✓ Separation of concerns</p>
+            <p>✓ Code reusability</p>
+            <p>✓ Easier maintenance</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>🎓 Structural Design Patterns | P99 Soft Training | Week 8 Day 1</p>
+    </footer>
+  </div>
+
+  <script src="ui.js"></script>
+</body>
+</html>
