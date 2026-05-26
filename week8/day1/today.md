@@ -9,7 +9,7 @@
 
 
 ## design patterns
- ### 
+ ### Creational pattern 
 - Singleton: ensures a class has only one instance and provides a global point of access to it.
 - Factory Method: defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
 - Builder: separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
